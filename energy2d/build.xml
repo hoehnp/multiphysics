@@ -4,9 +4,9 @@
 	<property name="app.version" value="1.0"/>
 	<property name="build.src.dir" value="src" />
 	<property name="build.classes.dir" value="classes" />
-	<property name="build.dist.dir" value="C:\dist" />
-	
-	<condition property="JAVA_HOME" value="C:\Program Files (x86)\Java\jdk1.8.0_202\">
+	<property name="build.dist.dir" value="C:\Users\pho17\IdeaProjects\multiphysics\out" />
+
+	<condition property="JAVA_HOME" value="C:\Users\pho17\.jdks\corretto-1.8.0_362">
 		<os family="windows" />
 	</condition>
 	<condition property="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home">
